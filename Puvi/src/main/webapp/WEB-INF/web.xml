@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>Puvi</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Site_Registration</display-name>
+    <servlet-name>Site_Registration</servlet-name>
+    <servlet-class>All_Codes.Site_Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Site_Registration</servlet-name>
+    <url-pattern>/Site_Registration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Estimation_calc</display-name>
+    <servlet-name>Estimation_calc</servlet-name>
+    <servlet-class>All_Codes.Estimation_calc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Estimation_calc</servlet-name>
+    <url-pattern>/Estimation_calc</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Resource_Entry</display-name>
+    <servlet-name>Resource_Entry</servlet-name>
+    <servlet-class>All_Codes.Resource_Entry</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Resource_Entry</servlet-name>
+    <url-pattern>/Resource_Entry</url-pattern>
+  </servlet-mapping>
+</web-app>
